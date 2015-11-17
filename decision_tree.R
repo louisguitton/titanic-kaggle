@@ -1,3 +1,5 @@
+setwd("C:\\Users\\Louis\\Documents\\CodingProjects\\titanic-kaggle")
+
 # Import the training set: train
 train_url <- "http://s3.amazonaws.com/assets.datacamp.com/course/Kaggle/train.csv"
 train <- read.csv(train_url)
